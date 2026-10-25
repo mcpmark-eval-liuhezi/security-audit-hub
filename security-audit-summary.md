@@ -50,7 +50,7 @@ The critical-severity filter returned **3 results** — no fallback to high seve
   `main` (commit b09b0f8).
 - Triggered once — no retry was needed, Actions registered the new file immediately.
 - **Run ID: 40199648241** (run #1, event: workflow_dispatch, head commit b09b0f8)
-- **Status observed when checked: `in_progress`** (initially `queued` after dispatch)
+- Status progression: `queued` -> `in_progress` -> **`completed` / conclusion `success`**
 - https://github.com/mcpmark-eval-liuhezi/security-audit-hub/actions/runs/40199648241
 
 ## Notification Status
